@@ -1,4 +1,4 @@
-# osync - test results
+# [osync](https://github.com/mann1x/osync) - test results
 
 Repository for my tests with osync
 Currently only *Quantizations Comparisons*

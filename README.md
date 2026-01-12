@@ -14,10 +14,10 @@ I will implement next an optional split to use different judge models for simila
 Models tested so far:
 
 - [unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF](https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF)
-  - Judge: gemma3-12b [Quantization-Comparison-Results/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF](https://github.com/mann1x/osync-tests/Quantization-Comparison-Results/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF)
+  - Judge: gemma3-12b [Quantization-Comparison-Results/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF](https://github.com/mann1x/osync-tests/tree/main/Quantization-Comparison-Results/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF)
     - [View Benchmark Report (HTML)](https://mann1x.github.io/osync-tests/Quantization-Comparison-Results/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF-v1code-gemma3-12b.qc.html)
     - [View Benchmark Report (PDF)](https://mann1x.github.io/osync-tests/Quantization-Comparison-Results/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF-v1code-gemma3-12b.qc.pdf)
-  - Judge: gemma3-27b [Quantization-Comparison-Results/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF](https://github.com/mann1x/osync-tests/Quantization-Comparison-Results/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF)
+  - Judge: gemma3-27b [Quantization-Comparison-Results/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF](https://github.com/mann1x/osync-tests/tree/main/Quantization-Comparison-Results/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF)
     - [View Benchmark Report (HTML)](https://mann1x.github.io/osync-tests/Quantization-Comparison-Results/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF-v1code-gemma3-27b.qc.html)
     - [View Benchmark Report (PDF)](https://mann1x.github.io/osync-tests/Quantization-Comparison-Results/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF-v1code-gemma3-27b.qc.pdf)
 

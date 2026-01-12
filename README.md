@@ -14,3 +14,15 @@ Models tested so far:
   - Judge: gemma3-12b [Quantization-Comparison-Results/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF](https://github.com/mann1x/osync-tests/tree/17092d381740037a3ca7855cf3f5f07381ed111e/Quantization-Comparison-Results/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF)
     - [View Benchmark Report (HTML)](https://mann1x.github.io/osync-tests/Quantization-Comparison-Results/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF-v1code-gemma3-12b.qc.html)
     - [View Benchmark Report (PDF)](https://mann1x.github.io/osync-tests/Quantization-Comparison-Results/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF-v1code-gemma3-12b.qc.pdf)
+
+
+## Examples of console output
+
+With Judge results:
+
+![Judge results](https://github.com/mann1x/osync-tests/blob/main/osync-console-output-judge-example.png?raw=true)
+
+
+Only metrics:
+
+![Judge results](https://github.com/mann1x/osync-tests/blob/main/osync-console-output-metrics-example.png?raw=true)

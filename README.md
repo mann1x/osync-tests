@@ -7,7 +7,7 @@ Testing HW: RTX3090 TDP limited to 200W
 
 As for the best `ollama` model as Judge my pick is currently `gemma-3`:
 - the `12b` is very good at similarity score but when judging which answer is the best seems to be biased toward the response from the quantized model.
-- the `27b` is NOT very good at similarity score but when judging which answer is the best is definitely more accurate.
+- the `27b` is NOT very good at similarity score but when judging which answer is the best, definitely more accurate than `12b`.
 
 I will implement next an optional split to use different judge models for similarity and best answer.
 

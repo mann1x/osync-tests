@@ -11,6 +11,8 @@ As for the best `ollama` model as Judge my pick is currently `gemma-3`:
 
 I will implement next an optional split to use different judge models for similarity and best answer.
 
+GitHub Pages Website: https://mann1x.github.io/osync-tests/
+
 Models tested so far:
 
 - [unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF](https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF)

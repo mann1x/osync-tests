@@ -9,13 +9,16 @@ As for the best `ollama` model as Judge my pick is currently `gemma-3`:
 - the `12b` is very good at similarity score but when judging which answer is the best seems to be biased toward the response from the quantized model.
 - the `27b` is NOT very good at similarity score but when judging which answer is the best, definitely more accurate than `12b`.
 
-I will implement next an optional split to use different judge models for similarity and best answer.
+Implemented split testing for Similarity and BestAnswer judgment process.
 
 GitHub Pages Website: https://mann1x.github.io/osync-tests/
 
 Models tested so far:
 
 - [unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF](https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF)
+  - **Judges - Similarity: gemma3-12b  BestAnswer: gemma3-27b** [Quantization-Comparison-Results/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF](https://github.com/mann1x/osync-tests/tree/main/Quantization-Comparison-Results/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF)
+    - [View Benchmark Report (HTML)](https://mann1x.github.io/osync-tests/Quantization-Comparison-Results/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF-v1code-gemma3-12b-27b.qc.html)
+    - [View Benchmark Report (PDF)](https://mann1x.github.io/osync-tests/Quantization-Comparison-Results/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF-v1code-gemma3-12b-27b.qc.pdf)
   - Judge: gemma3-12b [Quantization-Comparison-Results/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF](https://github.com/mann1x/osync-tests/tree/main/Quantization-Comparison-Results/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF)
     - [View Benchmark Report (HTML)](https://mann1x.github.io/osync-tests/Quantization-Comparison-Results/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF-v1code-gemma3-12b.qc.html)
     - [View Benchmark Report (PDF)](https://mann1x.github.io/osync-tests/Quantization-Comparison-Results/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF/unsloth-Qwen3-Coder-30B-A3B-Instruct-GGUF-v1code-gemma3-12b.qc.pdf)
